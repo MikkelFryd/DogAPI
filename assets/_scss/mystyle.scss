@@ -1,0 +1,42 @@
+#cardContainer {
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 900px;
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    h1 {
+        font-family: sans-serif;
+        text-align: center;
+        margin: auto;
+    }
+    #imgContainer{    
+        margin: auto;
+        height: 500px;
+        img {
+            border: 2px solid black;
+        }
+    }
+        #buttonSection{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 2%;
+            margin: auto;
+            #minus{
+                font-size: 16px;
+                border-radius: 10px;
+                border: 2px solid black;
+            }
+            #breeds{
+                font-size: 16px;
+                border-radius: 10px;
+                border: 2px solid black;
+            }
+            #plus{
+                font-size: 16px;
+                border-radius: 10px;
+                border: 2px solid black;
+            }
+        }
+    }

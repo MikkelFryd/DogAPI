@@ -1,0 +1,54 @@
+#cardContainer {
+  border: 2px solid black;
+  border-radius: 15px;
+  height: 900px;
+  width: 50%;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+}
+
+#cardContainer h1 {
+  font-family: sans-serif;
+  text-align: center;
+  margin: auto;
+}
+
+#cardContainer #imgContainer {
+  margin: auto;
+  height: 500px;
+}
+
+#cardContainer #imgContainer img {
+  border: 2px solid black;
+}
+
+#cardContainer #buttonSection {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 2%;
+  margin: auto;
+}
+
+#cardContainer #buttonSection #minus {
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+#cardContainer #buttonSection #breeds {
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+#cardContainer #buttonSection #plus {
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+/*# sourceMappingURL=mystyle.css.map */
